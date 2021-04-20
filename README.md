@@ -4,7 +4,7 @@ This was a challenge by LandingJobs where we needed to improve the overall knowl
 
 ## Data
 
-All data was obtain from the `Tech Careers Report PT 2021 - Raw Data.xlxs` file.
+All data was obtained from the `Tech Careers Report PT 2021 - Raw Data.xlxs` file.
 
 ## Submission:
   `HotProg.py`: Graphic visualization of a programming language in a perspective of percentage of employees vs the average salary.
