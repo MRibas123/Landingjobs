@@ -103,7 +103,7 @@ ax2 = ax.twiny()
 df_final.plot(kind='barh',color='coral', x='PL', y='Avg_Salary', ax=ax2, position=0, legend=False, width=0.25)
 
 plt.grid(linestyle = '--')
-plt.ylabel('Programming Language', labelpad=50, fontweight='bold')
+plt.ylabel('Programming Language', labelpad=20, fontweight='bold')
 
 ax.set_xlabel('Employees [%]', color='cornflowerblue')
 ax.tick_params(axis='x', labelcolor='cornflowerblue')

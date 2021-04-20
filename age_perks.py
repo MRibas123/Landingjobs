@@ -111,6 +111,9 @@ s_old = top5_score[2]
 fig = plt.figure(figsize=(11.0, 10.0))
 ax = fig.add_subplot(111)
 
+ax.yaxis.set_label_position("right")
+ax.yaxis.tick_right()
+
 plt.yticks(fontsize=15)
 
 df_young = pd.DataFrame({'Perk':perk_top, 'scores': s_young})
@@ -130,6 +133,8 @@ ax.yaxis.grid(False)
 plt.ylabel('Job Perks')
 plt.xlabel('Average score (0 - min and 7 - max)')
 plt.ylim((-0.5, len(df_young)))
+
+plt.gca().invert_xaxis()
     
 if save:
     plt.savefig('age_perk.png',  bbox_inches='tight')
