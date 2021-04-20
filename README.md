@@ -9,4 +9,4 @@ This was a challenge by LandingJobs where we needed to improve the overall knowl
   
   **age_perks.py:**  Graphic visualization of a perks(Health Benefits, Annual Bonus...) by 3 groups of ages (19-29, 30-49, 50+).
   
-  **Clustering.py:**  Graphic visualization of a programming language in a perspective of percentage of employees vs the average salary
+  **Clustering.py:**  K-means technique to find clusters that could help understand the best programming languages or job roles
